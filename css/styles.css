@@ -1,0 +1,143 @@
+
+
+
+#title {
+    background-color: #ff4c68;
+
+
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+h2 {
+
+    font-family: 'Ubuntu-bold';
+    /* width: 80%; */
+}
+.image {
+    position: relative;
+}
+
+
+.phone-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right:30%;
+
+
+}
+.navbar {
+padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#features {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: 'montserrat';
+}
+.second-row i {
+    color: #ef8172;
+text-align: center;
+margin-bottom: 1rem;
+
+}
+.second-row i:hover {
+    color: #ff4c68;
+}
+
+.row p {
+    color: #8f8f8f;
+}
+#testimonials {
+    text-align: center;
+    background-color:  #ef8172;
+
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.dog_image {
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+#press {
+  background-color:#ef8172;
+ text-align: center;
+ padding-bottom: 5rem;
+}
+.press-image {
+    padding: 2rem;
+    width: 12rem;
+}
+
+.testimonial-text {
+    padding-top: 4  rem;
+}
+#pricing {
+    text-align: center;
+    padding-top: 1rem;
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* media queries */
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .phone-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* footer section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+#cta h3 {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 3rem;
+    height: 1.5;
+
+}
+#footer {
+    background-color: #fff;
+    text-align: center;
+}
+.footer-icons {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#footer p {
+    padding-bottom: 80px;
+}
